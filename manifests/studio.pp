@@ -4,7 +4,7 @@
 # Usage:
 #
 #     include android::studio
-class android::studio($release = '1.2.1.1', $version = '141.1903250') {
+class android::studio($release = '2.1.1', $version = '143.2821654') {
 
   package { 'Android Studio':
     provider => 'appdmg',
